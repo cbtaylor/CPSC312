@@ -1,0 +1,31 @@
+-- Haskell Playground 1.0
+pegpuzzle "RR__BB" "BB__RR"
+
+
+pegpuzzle "RRR___BBB" "BBB___RRR"
+
+pegpuzzle "RRRBBB___" "BBB___RRR"
+
+statesearch [] "BB__RR" []
+
+replaceSegment "RR__BB" 1 "_R"
+
+--generateNew
+
+segmentEqual "RR__BB" 2 "RR__BB"
+
+generateNewRedSlides "R_R_BB"
+
+generateNewRedJumps "R_RB_B"
+
+generateNewBlueSlides "R_RB_B"
+
+generateNewBlueJumps "R_RB_B"
+
+reverseEach [[1,2],[3,4]]
+
+generateNewStates "RR__BB"
+generateNewStates "R_RB_B"
+
+
+

@@ -1,0 +1,39 @@
+-- Haskell Playground 1.0
+let lop = [(1,2), (3,4), (0,5),
+           (-3,8), (-5,15), (4,5)]
+           
+
+           
+map (\x -> fst x + snd x) lop
+
+let lopsums = map (\x -> fst x + snd x) lop
+
+let lopsummax = maximum lopsums
+
+filter (== lopsummax) lopsums
+
+findmaxpoint lop
+
+
+findCentre "abcdefg"
+
+
+let (current:old) = [1,2,3]
+current
+old
+let (current:old) = [1]
+
+current
+old
+
+take 10 allFibs
+
+
+let xs = [3,4,5]
+xs
+1:xs
+1:2:xs
+
+eval (Add (Lit 5) (Lit 3))
+
+sqrt $ double (sqrt 100)

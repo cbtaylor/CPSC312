@@ -1,0 +1,29 @@
+-- Haskell Playground 1.0
+putStr "hello\nworld"
+
+numSides 19
+
+numSides 37
+numSides 61
+numSides 7
+numSides 1
+
+prettyPrint []
+
+let l = length "abcdefg"
+l
+numSides 7
+numSides (fromIntegral l)
+
+addNewLines "1234567"
+
+insertNewLine 3 "WWW-WW-----"
+
+addSpace "hello"
+
+"abcde" !! 0
+"abcde" !! 1
+"abcde" !! 2
+[1,2,3,4,5] !! 2
+[[0,1,2],[3,4,5]] !! 1 !! 1
+
